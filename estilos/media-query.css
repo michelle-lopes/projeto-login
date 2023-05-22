@@ -27,13 +27,21 @@ width: 90vw;
         width: 90vw;
     }
     div#imagem{
-float: left;
+float: right;
 width: 50%;
 height: 100%;
     }
 
-    divi#formulario{
-        float: right;
+    div#formulario{
+        float: left;
         height: 50%;
+    }
+
+    div#formulario >p{
+        font-size:1.2em;
+    }
+
+    div#formulario >h1{
+        font-size: 2em;
     }
 }
