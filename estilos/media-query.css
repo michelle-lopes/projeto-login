@@ -4,6 +4,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px){
     section{
 width: 90vw;
+height: 280px;
     }
 
     div#imagem{
@@ -25,6 +26,7 @@ width: 90vw;
     }
     section{
         width: 90vw;
+        height: 350px;
     }
     div#imagem{
 float: right;
@@ -38,7 +40,8 @@ height: 100%;
     }
 
     div#formulario >p{
-        font-size:1.2em;
+        font-size:1em;
+        margin: 20px 0px;
     }
 
     div#formulario >h1{
