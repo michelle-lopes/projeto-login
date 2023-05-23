@@ -16,7 +16,6 @@ body, html{
     background-color:#5f2c82 ;
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to top, #5f2c82, #49a09d);
 }
 
 main{
@@ -36,11 +35,11 @@ section{ /*login */
     transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.429);
-    transition: width 0.3s height 0.3s;
+    transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
 
- div#imagem{
+ section > div#imagem{
     background: #5f2c82 url(../imagens/pexels-marek.jpg) no-repeat;
     height: 200px;
     background-size: cover;
@@ -48,7 +47,7 @@ section{ /*login */
     display: block;
 }
 
-div#formulario{
+section#login > div#formulario{
     padding: 10px;
     display: block;
 }
@@ -62,12 +61,12 @@ div#formulario >p{
     font-size:0.8em;
 }
 
- div.campo{
+ form > div.campo{
     background-color: #5f2c82;
     width:100% ;
     display: block;
     height:40px;
-    border-radius:8px;
+    border-radius:5px;
     margin: 5px 0px;
 border: 2px solid #5f2c82 ;
  }
@@ -110,7 +109,7 @@ form > input[type=submit] {
   border-radius: 5px;
   cursor: pointer;
 }
-form > input[type=submit]:hover{
+form > input[type=submit]:hover {
     background-color: #49a09d;
 }
 
@@ -131,4 +130,8 @@ border-radius: 7px;
 
 form > a.botao >i {
     font-size: 0.8em;
+}
+
+form > a.botao:hover {
+    background-color: #5f2c82;
 }
